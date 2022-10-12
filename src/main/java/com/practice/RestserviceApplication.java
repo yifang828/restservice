@@ -1,4 +1,4 @@
-package com.practice.restservice;
+package com.practice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -8,12 +8,12 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-//@SpringBootApplication(scanBasePackages={"com.practice"})
-@Configuration
-@EnableAutoConfiguration
-@ComponentScan(basePackages = {"com.practice"})
-@EnableJpaRepositories(basePackages = {"com.practice"})
-@EntityScan(basePackages = {"com.practice"})
+@SpringBootApplication
+//@Configuration
+//@EnableAutoConfiguration
+//@ComponentScan(basePackages = {"com.practice"})
+//@EnableJpaRepositories(basePackages = {"com.practice"})
+//@EntityScan(basePackages = {"com.practice"})
 
 public class RestserviceApplication {
 
